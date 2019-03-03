@@ -1,0 +1,27 @@
+{
+  "name": "polevaultweb/codeception-emailmarketing",
+  "description": "Email Marketing module library for Codeception",
+  "keywords": [
+    "Codeception",
+    "Email Marketing"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "polevaultweb (Iain Poulson)",
+      "email": "iain@polevaultweb.com",
+      "homepage": "https://polevaultweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "codeception/codeception": "*",
+    "polevaultweb/codeception-wait": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codeception\\Module\\": "src"
+    }
+  }
+}
